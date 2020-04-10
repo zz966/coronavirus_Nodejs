@@ -37,8 +37,8 @@ app.get('/current_status', async (req, res) => {
                 location[i] = $(this).text();
             });
 
-        console.log(location)
-        console.log(typeof location)  //object
+        // console.log(location)
+        // console.log(typeof location)  //object
         
 
         let data = Object.keys(location).map(function (key) { 
@@ -50,8 +50,8 @@ app.get('/current_status', async (req, res) => {
             return [location[key]]; 
         }); 
         
-        console.log(data);
-        console.log(typeof data); //object
+        // console.log(data);
+        // console.log(typeof data); //object
 
          let dataArr =[];
 
@@ -63,7 +63,7 @@ app.get('/current_status', async (req, res) => {
             dataArr.push(obj);
          }
         
-        console.log(dataArr)
+       // console.log(dataArr)
         try {
             res.send(dataArr);
         } catch (err) {

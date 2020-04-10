@@ -3,7 +3,7 @@
     <!-- <h1>{{ posts.data }}</h1> -->
       <h2>Confirmed cases of Covid-19 in Australia</h2>
        <h5>3-25</h5>
-    <!-- <table align="center">
+    <table align="center">
       <thead>
         <tr>
           <th v-for="(item,index) in confirmedCases.data" v-bind:key="index">{{item.state_name}}</th>
@@ -17,7 +17,7 @@
           >{{item.confirmed_cases}}</td>
         </tr>
       </tbody>
-    </table> -->
+    </table>
 
 
     <table align="center">

@@ -1,7 +1,8 @@
 import axios from 'axios'
 
-const url = 'http://localhost:3000/confirmedcases';
-const current_status_url = 'http://localhost:3000/current_status';
+const url = '/confirmedcases';
+//const url = 'http://localhost:3000/confirmedcases';
+const current_status_url = '/current_status';
 
 class DataResource{
     static getConfirmedCases(){
